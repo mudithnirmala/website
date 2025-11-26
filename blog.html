@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Blog | Mudith Witharama</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="navbar-inner">
+      <div class="nav-brand">Mudith <span>Witharama</span></div>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="index.html#research">Research</a>
+        <a href="index.html#projects">Projects</a>
+        <a href="blog.html" class="active">Blog</a>
+        <a href="resources.html">Resources</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container">
+      <h1 class="section-title">Blog</h1>
+      <p class="section-subtitle">
+        Notes, observations, and half-formed ideas — especially about the US, systems, people, and how things actually work.
+      </p>
+
+      <div class="blog-list">
+        <!-- Example post 1 -->
+        <article class="card">
+          <div class="blog-post-meta">[Month DD, YYYY] · US Observations</div>
+          <h2 class="blog-post-title">
+            <a href="blog-post-template.html" style="color: inherit; text-decoration: none;">
+              [Sample] What surprised me most about everyday life in the US
+            </a>
+          </h2>
+          <p class="blog-post-excerpt">
+            First impressions, small cultural differences that matter, and how systems here are designed very differently
+            from what I saw growing up in Sri Lanka...
+          </p>
+          <div style="margin-top:0.5rem;">
+            <span class="blog-tag">Culture</span>
+            <span class="blog-tag">US</span>
+            <span class="blog-tag">Systems</span>
+          </div>
+        </article>
+
+        <!-- Example post 2 -->
+        <article class="card">
+          <div class="blog-post-meta">[Month DD, YYYY] · Thinking</div>
+          <h2 class="blog-post-title">
+            <a href="#" style="color: inherit; text-decoration: none;">
+              [Placeholder] How I think about career decisions as an engineer from Sri Lanka
+            </a>
+          </h2>
+          <p class="blog-post-excerpt">
+            Rough framework I use when comparing paths like academia, industry, consulting, and building companies...
+          </p>
+          <div style="margin-top:0.5rem;">
+            <span class="blog-tag">Careers</span>
+            <span class="blog-tag">Sri Lanka</span>
+            <span class="blog-tag">Strategy</span>
+          </div>
+        </article>
+
+        <!-- Add new posts by copying this block -->
+        <!--
+        <article class="card">
+          <div class="blog-post-meta">[Month DD, YYYY] · [Category]</div>
+          <h2 class="blog-post-title">
+            <a href="your-post-file.html" style="color: inherit; text-decoration: none;">
+              Your title here
+            </a>
+          </h2>
+          <p class="blog-post-excerpt">
+            1–2 lines summarizing the main idea...
+          </p>
+          <div style="margin-top:0.5rem;">
+            <span class="blog-tag">Tag1</span>
+            <span class="blog-tag">Tag2</span>
+          </div>
+        </article>
+        -->
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      &copy; <span id="year"></span> Mudith Witharama. All rights reserved.
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>[Title] | Blog | Mudith Witharama</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="navbar-inner">
+      <div class="nav-brand">Mudith <span>Witharama</span></div>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="index.html#research">Research</a>
+        <a href="index.html#projects">Projects</a>
+        <a href="blog.html" class="active">Blog</a>
+        <a href="resources.html">Resources</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container">
+      <article class="card">
+        <div class="blog-post-meta">[Month DD, YYYY] · [Category / Tag]</div>
+        <h1 class="blog-post-title">[Your article title here]</h1>
+
+        <p class="blog-post-excerpt" style="margin-top:0.9rem;">
+          [Optional short summary – 1–2 sentences to frame the piece.]
+        </p>
+
+        <hr style="border:none;border-top:1px solid #1f2937;margin:1rem 0;" />
+
+        <!-- Start writing here -->
+        <p>
+          [Paragraph 1 – hook: what you noticed, why it caught your attention.]
+        </p>
+
+        <p>
+          [Paragraph 2–3 – zoom out: what this says about systems, incentives, culture, etc.]
+        </p>
+
+        <p>
+          [Paragraph 4+ – your conclusions, questions you’re still thinking about, or what this means for Sri Lanka / engineering / policy.]
+        </p>
+
+        <p style="margin-top:1.5rem;font-size:0.85rem;color:#9ca3af;">
+          If you have thoughts or disagree, feel free to reach out:
+          <a href="mailto:mudithnirmala@gmail.com">mudithnirmala@gmail.com</a>.
+        </p>
+      </article>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      &copy; <span id="year"></span> Mudith Witharama. All rights reserved.
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
